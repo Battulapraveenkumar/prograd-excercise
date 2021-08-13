@@ -1,7 +1,7 @@
 public void whenAppendToFileUsingFileWriter_thenCorrect()
   throws IOException {
  
-    FileWriter insertion = new FileWriter(fileName, true);
+    FileWriter insertion = new FileWriter("demo.txt", true);
     BufferedWriter insertion = new BufferedWriter(insertion);
     insertion.write("Praveen");
     insertion.newLine();
